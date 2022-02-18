@@ -16,6 +16,7 @@
 		534F84C127BFEB7300614968 /* Shakespeare_s_comediesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84C027BFEB7300614968 /* Shakespeare_s_comediesTests.swift */; };
 		534F84CB27BFEB7300614968 /* Shakespeare_s_comediesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84CA27BFEB7300614968 /* Shakespeare_s_comediesUITests.swift */; };
 		534F84CD27BFEB7300614968 /* Shakespeare_s_comediesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84CC27BFEB7300614968 /* Shakespeare_s_comediesUITestsLaunchTests.swift */; };
+		534F84DA27BFECE000614968 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 534F84D927BFECE000614968 /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		534F84C627BFEB7300614968 /* Shakespeare's comediesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shakespeare's comediesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		534F84CA27BFEB7300614968 /* Shakespeare_s_comediesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_s_comediesUITests.swift; sourceTree = "<group>"; };
 		534F84CC27BFEB7300614968 /* Shakespeare_s_comediesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_s_comediesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		534F84D927BFECE000614968 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				534F84B227BFEB7300614968 /* Assets.xcassets */,
 				534F84B427BFEB7300614968 /* LaunchScreen.storyboard */,
 				534F84B727BFEB7300614968 /* Info.plist */,
+				534F84D927BFECE000614968 /* plays.txt */,
 			);
 			path = "Shakespeare's comedies";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534F84DA27BFECE000614968 /* plays.txt in Resources */,
 				534F84B627BFEB7300614968 /* LaunchScreen.storyboard in Resources */,
 				534F84B327BFEB7300614968 /* Assets.xcassets in Resources */,
 				534F84B127BFEB7000614968 /* Main.storyboard in Resources */,
@@ -446,6 +450,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +480,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
