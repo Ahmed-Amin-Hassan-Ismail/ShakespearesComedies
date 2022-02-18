@@ -17,6 +17,8 @@
 		534F84CB27BFEB7300614968 /* Shakespeare_s_comediesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84CA27BFEB7300614968 /* Shakespeare_s_comediesUITests.swift */; };
 		534F84CD27BFEB7300614968 /* Shakespeare_s_comediesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84CC27BFEB7300614968 /* Shakespeare_s_comediesUITestsLaunchTests.swift */; };
 		534F84DA27BFECE000614968 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 534F84D927BFECE000614968 /* plays.txt */; };
+		534F84DC27BFEF6B00614968 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84DB27BFEF6B00614968 /* PlayData.swift */; };
+		534F84DE27BFEFB500614968 /* PlayDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F84DD27BFEFB500614968 /* PlayDataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		534F84CA27BFEB7300614968 /* Shakespeare_s_comediesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_s_comediesUITests.swift; sourceTree = "<group>"; };
 		534F84CC27BFEB7300614968 /* Shakespeare_s_comediesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakespeare_s_comediesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		534F84D927BFECE000614968 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
+		534F84DB27BFEF6B00614968 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
+		534F84DD27BFEFB500614968 /* PlayDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,6 @@
 			children = (
 				534F84A827BFEB7000614968 /* Shakespeare's comedies */,
 				534F84BF27BFEB7300614968 /* Shakespeare's comediesTests */,
-				534F84C927BFEB7300614968 /* Shakespeare's comediesUITests */,
 				534F84A727BFEB7000614968 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +107,7 @@
 				534F84A927BFEB7000614968 /* AppDelegate.swift */,
 				534F84AB27BFEB7000614968 /* SceneDelegate.swift */,
 				534F84AD27BFEB7000614968 /* ViewController.swift */,
+				534F84DB27BFEF6B00614968 /* PlayData.swift */,
 				534F84AF27BFEB7000614968 /* Main.storyboard */,
 				534F84B227BFEB7300614968 /* Assets.xcassets */,
 				534F84B427BFEB7300614968 /* LaunchScreen.storyboard */,
@@ -117,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				534F84C027BFEB7300614968 /* Shakespeare_s_comediesTests.swift */,
+				534F84DD27BFEFB500614968 /* PlayDataTests.swift */,
+				534F84C927BFEB7300614968 /* Shakespeare's comediesUITests */,
 			);
 			path = "Shakespeare's comediesTests";
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				534F84AE27BFEB7000614968 /* ViewController.swift in Sources */,
+				534F84DC27BFEF6B00614968 /* PlayData.swift in Sources */,
 				534F84AA27BFEB7000614968 /* AppDelegate.swift in Sources */,
 				534F84AC27BFEB7000614968 /* SceneDelegate.swift in Sources */,
 			);
@@ -273,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				534F84C127BFEB7300614968 /* Shakespeare_s_comediesTests.swift in Sources */,
+				534F84DE27BFEFB500614968 /* PlayDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

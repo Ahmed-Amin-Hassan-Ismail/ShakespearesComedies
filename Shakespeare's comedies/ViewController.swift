@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UITableViewController {
+    
+    var playData = PlayData()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +29,7 @@ extension ViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return playData.allWords.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -35,8 +37,8 @@ extension ViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         // configure cell...
-        cell.textLabel?.text = String(indexPath.row)
-        cell.detailTextLabel?.text = String(indexPath.section)
+        cell.textLabel?.text = playData.allWords[indexPath.row]
+        //cell.detailTextLabel?.text = 
         
         return cell
     }
