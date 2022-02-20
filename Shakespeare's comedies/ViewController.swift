@@ -37,8 +37,9 @@ extension ViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         // configure cell...
-        cell.textLabel?.text = playData.allWords[indexPath.row]
-        //cell.detailTextLabel?.text = 
+        let word = playData.allWords[indexPath.row]
+        cell.textLabel?.text = word
+        cell.detailTextLabel?.text = "\(playData.wordCounts[word]!)"
         
         return cell
     }

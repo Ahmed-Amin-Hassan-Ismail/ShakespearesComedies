@@ -28,7 +28,19 @@ class PlayDataTests: XCTestCase {
         // When
         
         // Then
-        XCTAssertEqual(sut.allWords.count, 384001 )
+        XCTAssertEqual(sut.allWords.count, 18440 )
+    }
+    
+    func testPlayData_wordsCount_areCorrect() {
+        // Given
+        
+        // When
+        
+        // Then
+        XCTAssertEqual(sut.wordCounts["home"], 174)
+        XCTAssertEqual(sut.wordCounts["fun"], 4)
+        XCTAssertEqual(sut.wordCounts["mortal"], 41)
+        
     }
     
 }
