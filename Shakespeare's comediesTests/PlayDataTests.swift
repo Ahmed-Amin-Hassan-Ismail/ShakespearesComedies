@@ -37,10 +37,16 @@ class PlayDataTests: XCTestCase {
         // When
         
         // Then
-        XCTAssertEqual(sut.wordCounts["home"], 174)
-        XCTAssertEqual(sut.wordCounts["fun"], 4)
-        XCTAssertEqual(sut.wordCounts["mortal"], 41)
+        XCTAssertEqual(sut.wordCounts.count(for: "home"), 174)
+        XCTAssertEqual(sut.wordCounts.count(for: "fun"), 4)
+        XCTAssertEqual(sut.wordCounts.count(for: "mortal"), 41)
         
+    }
+    
+    func testwordsLoadTime() {
+        measure {
+            _ = sut
+        }
     }
     
 }
